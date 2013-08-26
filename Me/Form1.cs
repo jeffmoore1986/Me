@@ -47,5 +47,13 @@ namespace Me
             lstBox1.DataSource = null;
             lstBox1.DataSource = _items;
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Form newForm = new Form2();
+            newForm.Show();
+            
+            
+        }
     }
 }

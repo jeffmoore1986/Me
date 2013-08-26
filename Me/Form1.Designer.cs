@@ -32,6 +32,7 @@
             this.txtBox1 = new System.Windows.Forms.TextBox();
             this.lstBox1 = new System.Windows.Forms.ListBox();
             this.btnRemove = new System.Windows.Forms.Button();
+            this.btnNextForm = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnAdd
@@ -69,11 +70,22 @@
             this.btnRemove.UseVisualStyleBackColor = true;
             this.btnRemove.Click += new System.EventHandler(this.btnRemove_Click);
             // 
+            // btnNextForm
+            // 
+            this.btnNextForm.Location = new System.Drawing.Point(87, 238);
+            this.btnNextForm.Name = "btnNextForm";
+            this.btnNextForm.Size = new System.Drawing.Size(75, 23);
+            this.btnNextForm.TabIndex = 4;
+            this.btnNextForm.Text = "Next Form";
+            this.btnNextForm.UseVisualStyleBackColor = true;
+            this.btnNextForm.Click += new System.EventHandler(this.button1_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(292, 273);
+            this.Controls.Add(this.btnNextForm);
             this.Controls.Add(this.btnRemove);
             this.Controls.Add(this.lstBox1);
             this.Controls.Add(this.txtBox1);
@@ -91,6 +103,7 @@
         private System.Windows.Forms.TextBox txtBox1;
         private System.Windows.Forms.ListBox lstBox1;
         private System.Windows.Forms.Button btnRemove;
+        private System.Windows.Forms.Button btnNextForm;
     }
 }
 
